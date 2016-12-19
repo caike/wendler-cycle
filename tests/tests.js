@@ -1,4 +1,5 @@
 const test = QUnit.test;
+const calculateWendler = window.calculateWendler;
 
 test("Test Week One", function(assert){
   let program = calculateWendler(315);

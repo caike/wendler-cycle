@@ -5,8 +5,8 @@ Calculates weights to be used for the Wendler Program :muscle:
 ## Install
 
 Download and include the single file `wendler-calculator.js`
-on your page and call the `calculateWendler(maxWeight)` function 
-passing it your one rep max. 
+on your page and call the `calculateWendler(maxWeight)` function
+passing it your one rep max.
 
 For example, a call to `calculateWendler( 315 )` should return
 the following:
@@ -22,4 +22,6 @@ the following:
 
 ## Tests
 
-Open [tests/index.html](https://rawgit.com/caike/wendler-cycle/master/tests/index.html)
+1. Open [tests/index.html](https://rawgit.com/caike/wendler-cycle/master/tests/index.html)
+
+2. run `npm test`
