@@ -1,6 +1,8 @@
 # Wendler Calculator
 
-Calculates weights to be used for the Wendler Program :muscle:
+Calculates weights to be used for the [Wendler Program](https://www.t-nation.com/workouts/531-how-to-build-pure-strength) :muscle:
+
+[Live website](http://csouza.me/wendler-cycle/)
 
 ## Install
 
