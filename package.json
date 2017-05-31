@@ -1,0 +1,25 @@
+{
+  "name": "wendler-cycle",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony",
+    "uglifyify": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-js": "browserify calculate-wendler.js main.js | uglifyjs -c > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caike/wendler-cycle.git"
+  },
+  "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caike/wendler-cycle/issues"
+  },
+  "homepage": "https://github.com/caike/wendler-cycle#readme"
+}

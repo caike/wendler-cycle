@@ -1,9 +1,16 @@
+const calculateWendler = require("./calculate-wendler");
+
 jQuery(function($){
   const form = $('.wendler-form');
   form.submit(function(event){
     event.preventDefault();
     const onerm = parseInt($('#onerepmax').val(), 10);
-    const program = window.calculateWendler(onerm);
+
+    if(isNaN(onerm)){ // user submits empty form
+      return false
+    };
+
+    const program = calculateWendler(onerm);
     for(let i=0; i < program.length; i++){
       buildWeek(i+1, program[i].sets);
     }
